@@ -1,4 +1,4 @@
-// The below is deployed over aws service
+// The below code is deployed over aws service
 
 export const handler = async (favorite) => {
     // TODO implement
