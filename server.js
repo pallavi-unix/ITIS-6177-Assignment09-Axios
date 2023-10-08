@@ -440,6 +440,8 @@ app.get('/', (req, res) => {
     res.send('Hello There!!! This is the root GET method');
 });
 
+// The below code is for Assignment 09
+
 app.get('/say', async (req, res) => {
     const keyword = req.query.keyword;
     const baseURL = 'https://lnv3eszuif.execute-api.us-east-2.amazonaws.com/say';
